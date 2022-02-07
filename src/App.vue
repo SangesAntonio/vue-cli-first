@@ -2,16 +2,19 @@
   <div id="app">
     
     <titolo/>
+    <jumbotron/>
   </div>
 </template>
 
 <script>
 import titolo from './components/titolo.vue'
+import jumbotron from './components/hero.vue'
 
 export default {
   name: 'App',
   components: {
     titolo,
+    jumbotron,
   }
 }
 </script>
