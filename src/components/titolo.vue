@@ -1,16 +1,14 @@
 <template>
-  <div class="hello">
-    <h1>Hello World</h1>
+  <div >
+    <h1>La mia prima App con Vue</h1>
     
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'titolo',
+  
 }
 </script>
 
